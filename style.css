@@ -1,0 +1,128 @@
+body {
+    background-image: url(ressources/Fond%20-%20Connexion.svg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+input {
+    border-radius: 10px !important;
+    border: 0;
+    border: 1.5px solid !important;
+}
+button {
+    border: 1.5px solid;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 130%;
+    transition-duration: 0.3s;
+}
+button:hover{
+    color: white;
+    background-color: black;
+    border: 1.5px solid;
+    border-radius: 10px;
+}
+header {
+    border-radius: 15px;
+    background-color: white;
+    border: solid black;
+    margin: 1.5em 0;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+p{
+    font-size: 2em;
+    margin: 0;
+}
+
+
+/* admin */
+.containerBoxRecap {
+    display: flex;
+    justify-content: center;
+}
+
+.boxRecapDetenu {
+    border: solid black 2px;
+    width: 65em;
+    height: 40em;
+    border-radius: 2em;
+}
+
+.divSuppr {
+    border: solid black 2px;
+    width: 30em;
+    height: 10em;
+}
+
+.menu_gauche, .mdpAjout {
+    width: 40em;
+}
+
+.menuAjoutCompte {
+    display: flex;
+}
+
+.menuAjoutCompte > button {
+    margin-left: 5em;
+}
+
+.cache{
+    display: none;
+}
+
+
+
+
+
+
+/* Accueil */
+main {
+    border: solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.msgAccueil {
+    text-align: center;
+}
+
+.div-theme {
+    margin: 2% 0;
+}
+
+.div-categorie {
+    border: 4px solid;
+    border-radius: 80px;
+    margin: 0 3%;
+    padding: 1%;
+}
+
+#theme-1 .div-categorie {
+    background-clip: border-box (bottom right, #93278f, #bf2384, #ed1e79) 10;
+    border-radius: 1em;
+   
+}
+
+.titre-theme {
+    border-radius: 50px;
+    margin: 0 20%;
+    color: white;
+}
+
+.titre-categorie {
+    margin: 0 0 30% 0;
+}
+
+#theme-1 .titre-theme{
+    background: linear-gradient(to right, #93278f, #bf2384, #ed1e79);
+}
+
+#theme-2 .titre-theme{
+    background: linear-gradient(to right, #39b54a, #ffde00);
+    margin: 0 15%;
+}

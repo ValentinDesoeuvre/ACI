@@ -1,0 +1,33 @@
+.containerBoxRecap {
+    display: flex;
+    justify-content: center;
+}
+
+.boxRecapDetenu {
+    border: solid black 2px;
+    width: 65em;
+    height: 40em;
+    border-radius: 2em;
+}
+
+.divSuppr {
+    border: solid black 2px;
+    width: 30em;
+    height: 10em;
+}
+
+.menu_gauche, .mdpAjout {
+    width: 40em;
+}
+
+.menuAjoutCompte {
+    display: flex;
+}
+
+.menuAjoutCompte > button {
+    margin-left: 5em;
+}
+
+.cache{
+    display: none;
+}

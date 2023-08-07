@@ -1,0 +1,45 @@
+main {
+    border: solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.msgAccueil {
+    text-align: center;
+}
+
+.div-theme {
+    margin: 2% 0;
+}
+
+.div-categorie {
+    border: 4px solid;
+    border-radius: 80px;
+    margin: 0 3%;
+    padding: 1%;
+}
+
+#theme-1 .div-categorie {
+    background-clip: border-box (bottom right, #93278f, #bf2384, #ed1e79) 10;
+    border-radius: 1em;
+   
+}
+
+.titre-theme {
+    border-radius: 50px;
+    margin: 0 20%;
+    color: white;
+}
+
+.titre-categorie {
+    margin: 0 0 30% 0;
+}
+
+#theme-1 .titre-theme{
+    background: linear-gradient(to right, #93278f, #bf2384, #ed1e79);
+}
+
+#theme-2 .titre-theme{
+    background: linear-gradient(to right, #39b54a, #ffde00);
+    margin: 0 15%;
+}
